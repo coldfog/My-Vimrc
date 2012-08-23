@@ -61,6 +61,12 @@ EOF
 "==========================================================================
 "color scheme
 "==========================================================================
+syntax on
+if !has('gui_running')
+    let g:solarized_termcolors=256
+endif
+color solarized
+set background=dark
  " option name default optional ———————————————— 
 let g:solarized_visibility= "normal"
 set cursorline
@@ -76,10 +82,7 @@ if has('win32')
 endif
 set textwidth=78
 abbreviate #l =========================================================================
-map <F12> :!python %<cr> 
-set background=dark
-color solarized
-syntax on
+map <F12> :!python %<cr>
 set go=
 set backspace=indent,eol,start
 if has('win32')

@@ -167,8 +167,6 @@ let g:DoxygenToolkit_authorName="yyaofeng"
 "let g:DoxygenToolkit_briefTag_funcName = "no"
 "let g:DoxygenToolkit_maxFunctionProtoLines = 30
 
-"let g:DoxygenToolkit_licenseTag="声明：\<enter>水平有限仅供交流\<enter>您如果发现任何Bug或觉得有更好的改进方式请联系：yyaofeng@Gmail.com\<enter>"
-
 " Add name of function/class/struct... after pre brief tag if you want
 let g:DoxygenToolkit_briefTag_className = "yes"
 let g:DoxygenToolkit_briefTag_structName = "yes"
