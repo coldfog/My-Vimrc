@@ -9,7 +9,7 @@ Usage
 Keys |Functions
 ----|----|
 `F5` `F6` |for quickfix window
-`C-F5` |for Source check under standard PEP8
+`C-F6` |for Source check under standard PEP8
 `F7` |toggle taglist
 `F10` |toggle NERD_Tree which is used to show the file tree of current directory
 `F11` |toggle gvim to fullscreen
