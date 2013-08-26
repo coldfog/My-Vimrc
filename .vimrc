@@ -59,6 +59,9 @@ set background=dark
 let g:solarized_visibility= "normal"
 set cursorline
 
+" Default Language
+let $LANG = 'en'  
+set langmenu=en
 "==========================================================================
 " Settings for Powerline
 "==========================================================================
