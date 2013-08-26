@@ -62,11 +62,13 @@ set cursorline
 " Default Language
 let $LANG = 'en'  
 set langmenu=en
+
 "==========================================================================
 " Settings for Powerline
 "==========================================================================
+set laststatus=2
+let g:Powerline_symbols = 'fancy'
 if has('win32')
-    let g:Powerline_symbols = 'fancy'
     set guifont=Consolas\ for\ Powerline\ FixedD:h11
     set encoding=utf-8
 end
