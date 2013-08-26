@@ -25,5 +25,11 @@ Requirment
 
 Python moudle PEP8.py
 
-for win32 copy gvimfullscreen_win32\gvimfullscreen.dll to where GVIM.exe is
+**For win32**
+
+Copy gvimfullscreen_win32\gvimfullscreen.dll to where GVIM.exe is
 located
+
+You need to  patch the font file manually so that *Powerline* will display
+symbol normally. If you use the Font *Consolas* you can down the font file in
+[here](https://github.com/eugeneching/consolas-powerline-vim).

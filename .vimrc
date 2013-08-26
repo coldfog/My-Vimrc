@@ -60,6 +60,14 @@ let g:solarized_visibility= "normal"
 set cursorline
 
 "==========================================================================
+" Settings for Powerline
+"==========================================================================
+if has('win32')
+    let g:Powerline_symbols = 'fancy'
+    set guifont=Consolas\ for\ Powerline\ FixedD:h11
+    set encoding=utf-8
+end
+"==========================================================================
 " Settings for gvimfullscreen
 "==========================================================================
 if has('win32')
