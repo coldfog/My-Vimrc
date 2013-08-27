@@ -50,7 +50,8 @@ map <F12> :!python %<cr>
 " Color scheme
 syntax on
 if !has('gui_running')
-    let g:solarized_termcolors=256
+    "let g:solarized_termcolors=256
+    color solarized
 else
     color solarized
 endif
@@ -60,17 +61,18 @@ let g:solarized_visibility= "normal"
 set cursorline
 
 " Default Language
-let $LANG = 'en'  
-set langmenu=en
+let $LANG = 'en_US'  
+set langmenu=en_US
+language en_US
 
 "==========================================================================
 " Settings for Powerline
 "==========================================================================
 set laststatus=2
 let g:Powerline_symbols = 'fancy'
+set encoding=utf-8
 if has('win32')
     set guifont=Consolas\ for\ Powerline\ FixedD:h11
-    set encoding=utf-8
 end
 "==========================================================================
 " Settings for gvimfullscreen
