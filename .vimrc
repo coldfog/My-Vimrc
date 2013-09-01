@@ -27,7 +27,7 @@ set fileencodings=UTF-8,gbk
 :autocmd FileType html :set number
 :autocmd FileType javascript :set number
 :autocmd FileType python :set number
-:autocmd FileType python : set foldmethod=syntax
+:autocmd FileType python : set foldmethod=indent
 :autocmd FileType python :set autoindent
 " Use Ctrl-] to search identifier's declaration or implemention if there is 
 " only one matchings it will jump to there, otherwise open the matching list
