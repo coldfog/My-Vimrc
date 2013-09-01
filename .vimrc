@@ -65,6 +65,9 @@ let $LANG = 'en_US'
 set langmenu=en_US
 language en_US
 
+" Toggle fold mapping
+nnoremap <Space> za
+vnoremap <Space> za
 "==========================================================================
 " Settings for Powerline
 "==========================================================================
@@ -196,3 +199,4 @@ let g:DoxygenToolkit_keepEmptyLineAfterComment = "no"
 "set this option you can use Ctrl+[hjkl] to explore the buffer, but it doesn't
 "work in my vim. you can try it
 let g:miniBufExplMapCTabSwitchBufs = 1
+
