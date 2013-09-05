@@ -21,6 +21,8 @@ set fileencodings=UTF-8,gbk
 :filetype on
 :filetype plugin on
 :filetype indent on
+:autocmd FileType scheme : set number
+:autocmd FileType scheme : map<F12> : !f:\Racket\mzscheme.exe -r %<cr> 
 :autocmd FileType c,cpp : set foldmethod=syntax
 :autocmd FileType c,cpp :set number
 :autocmd FileType c,cpp :set cindent
@@ -29,12 +31,13 @@ set fileencodings=UTF-8,gbk
 :autocmd FileType python :set number
 :autocmd FileType python : set foldmethod=indent
 :autocmd FileType python :set autoindent
+:autocmd FileType python : map <F12> :!python %<cr>
 " Use Ctrl-] to search identifier's declaration or implemention if there is 
 " only one matchings it will jump to there, otherwise open the matching list
 map <C-]> g<C-]>
 " Mapping for the quickfix next and precious commands
-nmap<F5> :cp<cr>
-nmap<F6> :cn<cr>
+nmap<F3> :cp<cr>
+nmap<F4> :cn<cr>
 
 " Add the STL tags into ctags
 set tags+=~/.vim/STLTags/stl.tags
@@ -45,7 +48,6 @@ abbreviate #l ==================================================================
 if has('win32')
     set guifont=Consolas:h11
 endif
-map <F12> :!python %<cr>
 
 " Color scheme
 syntax on
@@ -63,7 +65,7 @@ set cursorline
 " Default Language
 let $LANG = 'en_US'  
 set langmenu=en_US
-language en_US
+"language en_US
 
 " Toggle fold mapping
 nnoremap <Space> za
