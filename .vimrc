@@ -71,6 +71,11 @@ set langmenu=en_US
 nnoremap <Space> za
 vnoremap <Space> za
 "==========================================================================
+" Settings for jedi-vim
+"==========================================================================
+let g:jedi#completions_command = "<C-N>"
+let g:jedi#use_splits_not_buffers = "top"
+"==========================================================================
 " Settings for Powerline
 "==========================================================================
 set laststatus=2
