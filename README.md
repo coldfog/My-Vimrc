@@ -25,8 +25,8 @@ Keys |Functions
 Requirment
 ----------
 
-+ Python moudle PEP8.py
-+ Python moudle jedi
++ Python module PEP8.py
++ Python module jedi
 
 **For win32**
 
