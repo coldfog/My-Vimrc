@@ -1,7 +1,7 @@
 My own vimrc
 ============
 
-This project is my own vimrc. 
+This project is my own vimrc. But it's useless...
 
 Usage
 ----------
